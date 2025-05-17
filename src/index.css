@@ -1,5 +1,5 @@
 
-.projects {
+.card {
     border: 1px solid hsl(0, 0%, 80%);
     border-radius: 10px;
     box-shadow: 5px 5px 5px hsla(0%, 0%, 0%, 0.1);
@@ -10,8 +10,20 @@
     display: inline-block;
 }
 
-img {
+.card .card-image {
     border-radius: 10px;
     max-width: 100%;
     height: auto;
+    margin-bottom: 10px;
+}
+
+.card .card-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    color: hsl(180, 21%, 18%);
+}
+
+.card .card-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: hsl(210, 72%, 35%)
 }
