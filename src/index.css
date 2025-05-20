@@ -45,3 +45,8 @@
     margin-top: 20px;
 }
 
+.nav-list {
+    list-style-type: none;
+    color: hsl(210, 89%, 45%);
+    padding: 0;
+}
