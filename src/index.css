@@ -50,3 +50,10 @@
     color: hsl(210, 89%, 45%);
     padding: 0;
 }
+
+.about {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: hsl(210, 72%, 35%);
+    text-align: center;
+    margin-top: 20px;
+}
