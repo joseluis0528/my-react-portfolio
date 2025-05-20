@@ -27,3 +27,21 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: hsl(210, 72%, 35%)
 }
+
+.card .card-button {
+    background-color: hsl(210, 72%, 35%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: hsl(210, 72%, 35%);
+    text-align: center;
+    margin-top: 20px;
+}
+
