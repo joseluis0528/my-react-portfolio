@@ -64,3 +64,10 @@
     text-align: center;
     margin-top: 20px;
 }
+
+.footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: hsl(210, 72%, 35%);
+    text-align: center;
+    margin-top: 20px;
+}
