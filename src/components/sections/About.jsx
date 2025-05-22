@@ -1,13 +1,6 @@
 
-function About() {
+export const About = () => {
     return (
-        <section className="about">
-        <h2>About Me</h2>
-        <p>Hello, my name is Jose and I am a web developer with a passion for creating beautiful and functional websites.</p>
-        <p>I have experience in HTML, CSS, JavaScript, React, and C++.</p>
-        <p>My goal is to continue learning and obtain my bachelors degree in Compter Science.</p>
-        </section>
+        <a href="#about" className="text-gray-300 hover:text-white trasition-colors">About</a>
     );
 }
-
-export default About;
