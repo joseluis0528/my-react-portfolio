@@ -1,14 +1,6 @@
-import weathericon from './assets/weather-icon.png';
 
-function Projects() {
+export const Projects = () => {
     return (
-        <div className="card">
-            <img className="card-image" src={weathericon} alt="project image"></img>
-            <h2 className="card-title" >Project 1</h2>
-            <p className="card-text" >This is my first project</p>
-            <button className="card-button">View project</button>
-        </div>
+        <a href="#projects" className="text-gray-300 hover:text-white trasition-colors">Projects</a>
     );
 }
-
-export default Projects;
