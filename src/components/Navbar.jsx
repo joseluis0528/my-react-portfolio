@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import { Home } from "./sections/Home";
 import { About } from "./sections/About"
 import { Projects } from "./sections/Projects";
 import { Contact } from "./sections/Contact";
@@ -22,7 +21,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
                     &#9776;
                 </div>
                 <div className="hidden md:flex items-center space-x-8">
-                    <Home />
+                    <a href="#home" className="text-gray-300 hover:text-white trasition-colors">Home</a>
                     <About />
                     <Projects />
                     <Contact />
