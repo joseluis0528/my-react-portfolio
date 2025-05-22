@@ -1,10 +1,10 @@
-import { useEffect } from "react"   
+import { useEffect } from "react";
 import { Home } from "./sections/Home";
 import { About } from "./sections/About"
 import { Projects } from "./sections/Projects";
 import { Contact } from "./sections/Contact";
 
-export const Navbar = (menuOpen, setMenuOpen) => {
+export const Navbar = ({ menuOpen, setMenuOpen }) => {
 
     useEffect(() => {
         document.body.style.overflow = menuOpen ? "hidden" : "";
@@ -14,7 +14,6 @@ export const Navbar = (menuOpen, setMenuOpen) => {
         <div className="max-w-5xl mx-auto px-4">
             <div className="flex justify-between items-center h-16">
                 <a href="#home" className="font-mono text-xl font-bold text-whote"> 
-                    {" "}
                     jose<span className="text-blue-500">.tech</span>
                 </a>
                 <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden "
