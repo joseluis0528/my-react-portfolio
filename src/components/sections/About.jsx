@@ -25,7 +25,7 @@ export const About = () => {
                                     <span key={index} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition">
                                         {skill}
                                     </span>
-                                ))}
+                                ))}                     
                             </div> 
                         </div>
                         <div className="rounded-xl p-6 hover:-tranlate-y-1 transition-all">
@@ -49,7 +49,7 @@ export const About = () => {
                                 <strong>A.S. in Computer Science</strong> - Waubonesee Community College (2025 - Present)
                             </li>
                             <li>
-                                Relevant Coursework: Data Structures, Algorithms, Web Development, Database Management
+                                Relevant Coursework: Web Developement, C++ Programming (Data Structures & Algorithms, Object-Oriented Programming).
                             </li>
                         </ul>
                     </div>
