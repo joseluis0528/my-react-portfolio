@@ -8,8 +8,9 @@ export const Home = () => {
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-cyan-400 bg-clip-text text-transparent leading-right"
         >Hi, I am Jose</h1>
         <p className="text-gray-300 text-lg mb-8 max-w-3xl mx-auto">
-          I am a first year Computer Science student at Waubonsee Community College.  
-          I am passionate about programming and creating innovative solutions.
+          I am a first year Computer Science student at Waubonsee Community College.
+          My goal is to transfer to a four-year university to complete my degree and go to Law School following graduation.
+          I am passionate about programming and I am currently learning about web development.
           I love to learn new technologies and improve my skills every day.
           I am currently looking for opportunities to apply my knowledge in real-world projects.
           I am excited to connect with like-minded individuals and explore new challenges.
